@@ -1,0 +1,16 @@
+{
+  "name": "belajar-npm",
+  "version": "1.0.0",
+  "description": "belajar npm",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "akbar angkasa",
+  "license": "ISC",
+  "dependencies": {
+    "validator": "^13.5.2"
+  }
+}

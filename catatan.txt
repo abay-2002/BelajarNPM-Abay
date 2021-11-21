@@ -1,0 +1,74 @@
+NPM
+TOPIK:
+1.Inisialisasi npm menggunakan npm init
+2.Menginstall package npm
+3.Meng-uninstall package npm
+
+TUJUAN:
+1.mengetahui apa itu entry point pada npm
+2.mengetahui apa itu script pada package.json
+3.mengetahui apa itu folder node_modules
+4.mengetahui cara install package npm
+5.mengetahui cara uninstall package npm
+6.memahami dependencies pada package.json
+
+
+CLI:
+npm init
+npm run namaScript
+npm install namaPackage@versiPackage
+npm uninstall namaPackage
+
+MEMAHAMI:
+package.json
+package-lock.json
+dependencies pada package.json
+
+
+
+1.inisiliasi npm pada project supaya project kita mengenali npm
+TERMINOLOGY:
+entry point
+main:
+script:
+
+npm
+npm init
+npm run namaScript
+
+npm terminolgy:
+npm entry point adalah main: pada package.json 
+
+
+
+2.install package dari npm
+TERMINOLOGY:
+dependencies
+node_modules
+npm install namaModule
+
+contoh kasus menginstall package validator:
+npm install validator
+
+dependencies
+ketika kita menginstall sebuah package dari npm akan terjadi perubahan pada file package.json yaitu terdapat dependencies artinya aplikasi yang kita punya bergantung pada package tersebut
+
+node_modules
+lalu akan terdapat folder node_modules dimana ini adalah semua package yang dibutuhkan, semua yang ada di dependencies akan terdapat pada node_modules.
+setiap kali kita menginstall sesuatu/module npm akan disimpan pada folder node_modules.
+
+package-lock.json
+adalah file untuk mengelola secara lebih detail dari dependencies
+
+
+
+3.menghapus package yang telah kita install 
+TERMINOLOGY:
+npm uninstall namaPackage
+
+
+4.menginstall package secara detail
+TERMINOLOGY:
+npm install namaModule@13.0.0
+
+
